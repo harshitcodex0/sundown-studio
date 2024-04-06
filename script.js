@@ -17,5 +17,6 @@ elemC.addEventListener("mouseleave", function () {
 var fixedimg = document.querySelector("#elem1")
 fixedimg.addEventListener("mouseenter", function(){
   var img = fixedimg.getAttribute("data-image")
+  // console.log(img)
   fixed.style.backgroundImage = `url(${img})`
 })
