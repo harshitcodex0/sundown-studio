@@ -52,3 +52,4 @@ menu.addEventListener("click", function(){
     flag = 0;
   }
 })
+
